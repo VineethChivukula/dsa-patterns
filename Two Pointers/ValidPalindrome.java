@@ -42,7 +42,7 @@
  * Efficient Approach:
  * We will use two pointers i and j, where i will be pointing to the first element and j will be pointing to the last element.
  * We will compare the characters at i and j.
- * If the characters are not alphanumeric, we will increment i and decrement j.
+ * If the character at i is not alphanumeric, we will increment i and if the character at j is not alphanumeric, we will decrement j.
  * If the characters are alphanumeric, we will compare the characters.
  * If the characters are not equal, we will return false.
  * If the characters are equal, we will increment i and decrement j.
