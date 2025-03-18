@@ -89,7 +89,7 @@ public class SquaresOfASortedArray {
 		return nums;
 	}
 
-	public static int[] efficientApproach(int[] nums) {
+	public static int[] efficient(int[] nums) {
 		int n = nums.length;
 		int[] result = new int[n];
 		int i = 0;
@@ -114,6 +114,6 @@ public class SquaresOfASortedArray {
 		System.out.println(Arrays.toString(approach2(nums1)));
 
 		int[] nums2 = { -5, -3, -2, -1 };
-		System.out.println(Arrays.toString(efficientApproach(nums2)));
+		System.out.println(Arrays.toString(efficient(nums2)));
 	}
 }
