@@ -148,4 +148,11 @@ public class ThreeSum {
 		}
 		return result;
 	}
+
+	public static void main(String[] args) {
+		int[] nums = { -1, 0, 1, 2, -1, -4 };
+		System.out.println(approach1(nums));
+		System.out.println(approach2(nums));
+		System.out.println(efficient(nums));
+	}
 }
